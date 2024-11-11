@@ -1,7 +1,6 @@
-
 import java.util.Scanner;
 
-public class Aula1 {
+public class Aula1_Ex_1_ao_6 {
     public static void main(String... args) {
         // 1
         String apreset = "Ola Mundo";
@@ -60,7 +59,6 @@ public class Aula1 {
         //double AC = 2 * PI * raio * raio;
         double AC = 2 * PI * Math.pow(raio, 2);
         System.out.println(AC);
-        
     }
 };
 
