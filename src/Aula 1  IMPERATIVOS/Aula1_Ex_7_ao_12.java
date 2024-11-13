@@ -72,5 +72,7 @@ public static void main(String[] args) {
 
     double volumeCilindro = PI * Math.pow(rBase, 2) * alturaCilindro;
     System.out.println("O volume do cilindro é: " + volumeCilindro);
+
+    entrada.close();
 }
 }

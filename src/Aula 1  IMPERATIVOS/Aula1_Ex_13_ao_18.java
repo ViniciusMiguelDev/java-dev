@@ -74,5 +74,7 @@ public class Aula1_Ex_13_ao_18 {
             BigDecimal pesoIdealArredM = new BigDecimal(calcM).setScale(2, RoundingMode.HALF_UP);
             System.out.println("Seu peso ideal é: " + pesoIdealArredM);
         }
+
+        entrada.close();
     }
 }

@@ -51,5 +51,7 @@ public class Aula1_Ex_31_ao_34 {
         char unidade = toString.charAt(2);
 
         System.out.println("Centena: " + centena + "\n" + "Dezena: " + dezena + "\n" + "Unidade: " + unidade);
+
+        entrada.close();
     }
 }

@@ -59,6 +59,8 @@ public class Aula1_Ex_1_ao_6 {
         //double AC = 2 * PI * raio * raio;
         double AC = 2 * PI * Math.pow(raio, 2);
         System.out.println(AC);
+        
+        entrada.close();
     }
 };
 

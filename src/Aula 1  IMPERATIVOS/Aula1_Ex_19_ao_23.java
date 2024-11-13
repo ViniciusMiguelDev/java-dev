@@ -104,5 +104,6 @@ public class Aula1_Ex_19_ao_23 {
 
         System.out.println("Seu download levará: " + tempoArred + " Minutos");
 
+        entrada.close();
     }
 }

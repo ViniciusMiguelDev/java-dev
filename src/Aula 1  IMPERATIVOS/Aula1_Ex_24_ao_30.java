@@ -96,5 +96,7 @@ public class Aula1_Ex_24_ao_30 {
         double salarioFinal = salario + calcularComiss;
 
         System.out.println("Querido colaborador: " + vendedor + "\n" + "Seu salário fixo é de: " + salario + "\n" + "Salário + comissão: " + salarioFinal);
+
+        entrada.close();
     }
 }

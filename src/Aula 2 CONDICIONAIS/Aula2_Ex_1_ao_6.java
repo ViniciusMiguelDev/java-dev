@@ -91,5 +91,7 @@ public class Aula2_Ex_1_ao_6 {
         }else if (numero3 > numero1 && numero3 > numero2) {
             System.out.println(numero3);
         }
+
+        entrada.close();
     }  
 }
