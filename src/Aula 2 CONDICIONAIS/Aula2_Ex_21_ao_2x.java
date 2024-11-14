@@ -1,13 +1,13 @@
 import java.util.Scanner;
 
-public class Aula2_Ex_13_ao_18 {
+public class Aula2_Ex_21_ao_2x {
     public static void main(String[] args) {
         // Scanner
-        Scanner entrada = new Scanner (System.in);
+        Scanner entrada = new Scanner(System.in);
 
-        // 13
-        
+        // 21
+
 
         entrada.close();
-;    }
+    }
 }
