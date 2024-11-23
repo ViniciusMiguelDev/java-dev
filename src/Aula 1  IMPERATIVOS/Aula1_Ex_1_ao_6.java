@@ -2,15 +2,17 @@ import java.util.Scanner;
 
 public class Aula1_Ex_1_ao_6 {
     public static void main(String... args) {
+        // Scanner
+        Scanner entrada = new Scanner(System.in);
+
         // 1
-        String apreset = "Ola Mundo";
-        System.out.println(apreset);
+        String apresent = "Ola Mundo";
+        System.out.println(apresent);
 
         // 2
         int a;
         int b;
 
-        Scanner entrada = new Scanner(System.in);
         System.out.println("Insira o valor 1");
         a = entrada.nextInt();
         System.out.println("Insira o valor 2");
@@ -62,7 +64,7 @@ public class Aula1_Ex_1_ao_6 {
         
         entrada.close();
     }
-};
+}
 
 /*
  * 4-

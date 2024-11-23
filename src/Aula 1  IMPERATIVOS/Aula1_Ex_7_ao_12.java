@@ -1,5 +1,3 @@
-
-
 import java.math.BigDecimal;
 import java.math.RoundingMode;
 import java.util.Scanner;
@@ -7,7 +5,7 @@ import java.util.Scanner;
 public class Aula1_Ex_7_ao_12 {
 
 public static void main(String[] args) {
-    // 7
+        // 7
         // Formula -> AreaDoQuadrado = Largura ao quadrado
         // Devolver o dobro da area
         Scanner entrada = new Scanner(System.in);
