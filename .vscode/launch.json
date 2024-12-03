@@ -1,0 +1,168 @@
+{
+    // Use o IntelliSense para saber mais sobre os atributos possíveis.
+    // Focalizar para exibir as descrições dos atributos existentes.
+    // Para obter mais informações, acesse: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Exercicio10",
+            "request": "launch",
+            "mainClass": "Exercicio10",
+            "projectName": "java-dev_85b72f12"
+        },
+        {
+            "type": "java",
+            "name": "Exercicio9",
+            "request": "launch",
+            "mainClass": "Exercicio9",
+            "projectName": "java-dev_85b72f12"
+        },
+        {
+            "type": "java",
+            "name": "Exercicio8",
+            "request": "launch",
+            "mainClass": "Exercicio8",
+            "projectName": "java-dev_85b72f12"
+        },
+        {
+            "type": "java",
+            "name": "Exercicio7",
+            "request": "launch",
+            "mainClass": "Exercicio7",
+            "projectName": "java-dev_85b72f12"
+        },
+        {
+            "type": "java",
+            "name": "Exercicio6",
+            "request": "launch",
+            "mainClass": "Exercicio6",
+            "projectName": "java-dev_85b72f12"
+        },
+        {
+            "type": "java",
+            "name": "Exercicio5",
+            "request": "launch",
+            "mainClass": "Exercicio5",
+            "projectName": "java-dev_85b72f12"
+        },
+        {
+            "type": "java",
+            "name": "Exercicio4",
+            "request": "launch",
+            "mainClass": "Exercicio4",
+            "projectName": "java-dev_85b72f12"
+        },
+        {
+            "type": "java",
+            "name": "teste1",
+            "request": "launch",
+            "mainClass": "teste1",
+            "projectName": "java-dev_85b72f12"
+        },
+        {
+            "type": "java",
+            "name": "Exercicio3",
+            "request": "launch",
+            "mainClass": "Exercicio3",
+            "projectName": "java-dev_85b72f12"
+        },
+        {
+            "type": "java",
+            "name": "Exercicio2",
+            "request": "launch",
+            "mainClass": "Exercicio2",
+            "projectName": "java-dev_85b72f12"
+        },
+        {
+            "type": "java",
+            "name": "Exercicio1",
+            "request": "launch",
+            "mainClass": "Exercicio1",
+            "projectName": "java-dev_85b72f12"
+        },
+        {
+            "type": "java",
+            "name": "Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Aula2_Ex_13_ao_16",
+            "request": "launch",
+            "mainClass": "Aula2_Ex_13_ao_16",
+            "projectName": "java-dev_85b72f12"
+        },
+        {
+            "type": "java",
+            "name": "Aula2_Ex_17_ao_20",
+            "request": "launch",
+            "mainClass": "Aula2_Ex_17_ao_20",
+            "projectName": "java-dev_85b72f12"
+        },
+        {
+            "type": "java",
+            "name": "Aula2_Ex_1_ao_6",
+            "request": "launch",
+            "mainClass": "Aula2_Ex_1_ao_6",
+            "projectName": "java-dev_85b72f12"
+        },
+        {
+            "type": "java",
+            "name": "Aula2_Ex_21_ao_24",
+            "request": "launch",
+            "mainClass": "Aula2_Ex_21_ao_24",
+            "projectName": "java-dev_85b72f12"
+        },
+        {
+            "type": "java",
+            "name": "Aula2_Ex_25_ao_27",
+            "request": "launch",
+            "mainClass": "Aula2_Ex_25_ao_27",
+            "projectName": "java-dev_85b72f12"
+        },
+        {
+            "type": "java",
+            "name": "Aula2_Ex_28_ao_31",
+            "request": "launch",
+            "mainClass": "Aula2_Ex_28_ao_31",
+            "projectName": "java-dev_85b72f12"
+        },
+        {
+            "type": "java",
+            "name": "Aula2_Ex_32_ao_34",
+            "request": "launch",
+            "mainClass": "Aula2_Ex_32_ao_34",
+            "projectName": "java-dev_85b72f12"
+        },
+        {
+            "type": "java",
+            "name": "Aula2_Ex_7_ao_12",
+            "request": "launch",
+            "mainClass": "Aula2_Ex_7_ao_12",
+            "projectName": "java-dev_85b72f12"
+        },
+        {
+            "type": "java",
+            "name": "Aula3_Ex_1_ao_3",
+            "request": "launch",
+            "mainClass": "Aula3_Ex_1_ao_3",
+            "projectName": "java-dev_85b72f12"
+        },
+        {
+            "type": "java",
+            "name": "Aula3_Ex_4_ao_0",
+            "request": "launch",
+            "mainClass": "Aula3_Ex_4_ao_0",
+            "projectName": "java-dev_85b72f12"
+        },
+        {
+            "type": "java",
+            "name": "estudoRepetição",
+            "request": "launch",
+            "mainClass": "estudoRepetição",
+            "projectName": "java-dev_85b72f12"
+        }
+    ]
+}
