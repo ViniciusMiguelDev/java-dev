@@ -1,13 +1,17 @@
 import java.util.Scanner;
 
+import javax.swing.JOptionPane;
+
 public class Aula1_Ex_1_ao_6 {
-    public static void main(String... args) {
+    public static void main(String[] args) {
+
         // Scanner
         Scanner entrada = new Scanner(System.in);
 
         // 1
         String apresent = "Ola Mundo";
         System.out.println(apresent);
+        JOptionPane.showMessageDialog(null, apresent);
 
         // 2
         int a;

@@ -1,0 +1,11 @@
+{
+    "java.project.sourcePaths": [
+        "src/Aula 1 IMPERATIVOS",
+        "src/Aula 2 CONDICIONAIS",
+        "src/Aula 3 LOOPS"
+    ],
+    "java.project.outputPath": "bin",
+    "java.project.referencedLibraries": [
+        "lib/**/*.jar"
+    ]
+}
