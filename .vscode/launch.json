@@ -6,6 +6,69 @@
     "configurations": [
         {
             "type": "java",
+            "name": "ExercicioAlunos",
+            "request": "launch",
+            "mainClass": "ExercicioAlunos",
+            "projectName": "java-dev_85b72f12"
+        },
+        {
+            "type": "java",
+            "name": "ExerciciosFuncionario",
+            "request": "launch",
+            "mainClass": "ExerciciosFuncionario",
+            "projectName": "java-dev_85b72f12"
+        },
+        {
+            "type": "java",
+            "name": "ExercicioWidthHeight",
+            "request": "launch",
+            "mainClass": "ExercicioWidthHeight",
+            "projectName": "java-dev_85b72f12"
+        },
+        {
+            "type": "java",
+            "name": "ExercicioProduto",
+            "request": "launch",
+            "mainClass": "ExercicioProduto",
+            "projectName": "java-dev_85b72f12"
+        },
+        {
+            "type": "java",
+            "name": "ExercicioAreaTriangulov2",
+            "request": "launch",
+            "mainClass": "ExercicioAreaTriangulov2",
+            "projectName": "java-dev_85b72f12"
+        },
+        {
+            "type": "java",
+            "name": "ExercicioAreaTriangulo",
+            "request": "launch",
+            "mainClass": "ExercicioAreaTriangulo",
+            "projectName": "java-dev_85b72f12"
+        },
+        {
+            "type": "java",
+            "name": "testeFunction",
+            "request": "launch",
+            "mainClass": "testeFunction",
+            "projectName": "java-dev_85b72f12"
+        },
+        {
+            "type": "java",
+            "name": "testeString2",
+            "request": "launch",
+            "mainClass": "testeString2",
+            "projectName": "java-dev_85b72f12"
+        },
+        {
+            "type": "java",
+            "name": "testeString",
+            "request": "launch",
+            "mainClass": "testeString",
+            "projectName": "java-dev_85b72f12"
+        },
+        {
+            "type": "java",
             "name": "Exercicio10",
             "request": "launch",
             "mainClass": "Exercicio10",
