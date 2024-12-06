@@ -6,6 +6,27 @@
     "configurations": [
         {
             "type": "java",
+            "name": "ExercicioBanco",
+            "request": "launch",
+            "mainClass": "ExercicioBanco",
+            "projectName": "java-dev_85b72f12"
+        },
+        {
+            "type": "java",
+            "name": "ExercicioProduto2",
+            "request": "launch",
+            "mainClass": "ExercicioProduto2",
+            "projectName": "java-dev_85b72f12"
+        },
+        {
+            "type": "java",
+            "name": "ExercicioCurrency",
+            "request": "launch",
+            "mainClass": "ExercicioCurrency",
+            "projectName": "java-dev_85b72f12"
+        },
+        {
+            "type": "java",
             "name": "ExercicioAlunos",
             "request": "launch",
             "mainClass": "ExercicioAlunos",
