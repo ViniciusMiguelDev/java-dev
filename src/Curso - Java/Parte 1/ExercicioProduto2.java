@@ -1,11 +1,10 @@
-import java.util.Locale;
+
 import java.util.Scanner;
 
 import entities.Product2;
 
 public class ExercicioProduto2 {
     public static void main(String[] args) {
-        Locale.setDefault(Locale.US);
         // Scanner
         Scanner sc = new Scanner(System.in);
 

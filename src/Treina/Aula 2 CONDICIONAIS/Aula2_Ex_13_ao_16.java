@@ -1,4 +1,3 @@
-import java.util.ArrayList;
 import java.util.Scanner;
 
 public class Aula2_Ex_13_ao_16 {
@@ -12,29 +11,28 @@ public class Aula2_Ex_13_ao_16 {
 
         switch (diaDaSemana) {
             case 1:
-                System.out.println("Segunda-Feira");
-                break;
-            case 2:
-                System.out.println("Terça-Feira");
-                break;
-            case 3:
-                System.out.println("Quarta-Feira");
-                break;
-            case 4:
-                System.out.println("Quinta-Feira");
-                break;
-            case 5:
-                System.out.println("Sexta-Feira");
-                break;
-            case 6:
-                System.out.println("Sábado");
-                break;
-            case 7:
                 System.out.println("Domingo");
                 break;
-
+            case 2:
+                System.out.println("Segunda-Feira");
+                break;
+            case 3:
+                System.out.println("Terça-Feira");
+                break;
+            case 4:
+                System.out.println("Quarta-Feira");
+                break;
+            case 5:
+                System.out.println("Quinta-Feira");
+                break;
+            case 6:
+                System.out.println("Sexta-Feira");
+                break;
+            case 7:
+                System.out.println("Sábado");
+                break;
             default:
-                System.err.println("Número inválido!");
+                System.err.println("Dia inválido!");
                 break;
         }
 
@@ -49,73 +47,67 @@ public class Aula2_Ex_13_ao_16 {
 
         if (media > 10.0 || media < 0) {
             System.err.println("Nota invalida");
-        }
-        else if (media >= 9 && media <= 10) {
+        } else if (media >= 9 && media <= 10) {
             System.out.println("Nota A - Aprovado");
         } else if (media >= 7.5 && media < 9.0) {
             System.out.println("Nota B - Aprovado");
-        }else if (media >= 6 && media < 7.5) {
+        } else if (media >= 6 && media < 7.5) {
             System.out.println("Nota C - Aprovado");
-        }else if (media >= 4 && media < 6) {
+        } else if (media >= 4 && media < 6) {
             System.out.println("Nota D - Reprovado");
-        }else if (media < 4) {
+        } else if (media < 4) {
             System.out.println("Nota E - Reprovado");
         }
 
         // 15
         System.out.println("Insira 3 lados de um triângulo: ");
-        String entradaLados = entrada.nextLine();
+        String entradaLados;
 
-        if (entradaLados.isEmpty()) {
+        do {
             entradaLados = entrada.nextLine();
-        }
+        } while (entradaLados.isEmpty());
 
         String[] lados = entradaLados.split(" ");
 
-        if (lados.length != 3) {
-            System.out.println("Insira 3 números");
-        }
-        
         double lado1 = Double.parseDouble(lados[0]);
         double lado2 = Double.parseDouble(lados[1]);
         double lado3 = Double.parseDouble(lados[2]);
 
         boolean equi = lado1 == lado2 && lado1 == lado3;
-        boolean iso = lado1 == lado2 && lado1 != lado3 || lado1 == lado3 && lado1 != lado2;
         boolean esc = lado1 != lado2 && lado1 != lado3;
 
-            if (equi) {
-                System.out.println("Triângulo Equilátero");
-            } if (esc) {
-                System.out.println("Triângulo Escaleno");
-            } if (iso) {
-                System.out.println("Triângulo Isósceles");
-            }
+        if (equi) {
+            System.out.println("Triângulo Equilátero");
+        } else if (esc) {
+            System.out.println("Triângulo Escaleno");
+        } else{
+            System.out.println("Triângulo Isósceles");
+        }
 
         // 16
         System.out.println("Insira o valor de A, B, C:");
         String valoresBhask = entrada.nextLine();
 
         String[] arrayVari = valoresBhask.split(" ");
-        
+
         int A = Integer.parseInt(arrayVari[0]);
         int B = Integer.parseInt(arrayVari[1]);
         int C = Integer.parseInt(arrayVari[2]);
-        
-            if(A == 0) {
-                System.out.println("A = 0 (Valor inválido)");
-            }
+
+        if (A == 0) {
+            System.out.println("A = 0 (Valor inválido)");
+        }
 
         double delta = Math.pow(B, 2) - (4 * A * C);
 
-            if (delta < 0) {
-                System.out.println("Delta negativo (não possui raízes reais)");
-            }
+        if (delta < 0) {
+            System.out.println("Delta negativo (não possui raízes reais)");
+        }
 
-            if (delta == 0) {
-                double x = (-B + delta) / (2 * A);
-                System.out.println(x);
-            }
+        if (delta == 0) {
+            double x = (-B + delta) / (2 * A);
+            System.out.println(x);
+        }
 
         double x1 = (-B + delta) / (2 * A);
         double x2 = (-B - delta) / (2 * A);

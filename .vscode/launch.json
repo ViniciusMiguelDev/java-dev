@@ -4,6 +4,49 @@
     // Para obter mais informações, acesse: https://go.microsoft.com/fwlink/?linkid=830387
     "version": "0.2.0",
     "configurations": [
+    
+        {
+            "type": "java",
+            "name": "Aula2_Ex_13_ao_16",
+            "request": "launch",
+            "mainClass": "Aula2_Ex_13_ao_16",
+            "projectName": "java-dev_fd27ddf4"
+        },
+        {
+            "type": "java",
+            "name": "ExercicioProduto2",
+            "request": "launch",
+            "mainClass": "ExercicioProduto2",
+            "projectName": "java-dev_fd27ddf4"
+        },
+        {
+            "type": "java",
+            "name": "Aula2_Ex_1_ao_6V2",
+            "request": "launch",
+            "mainClass": "Aula2_Ex_1_ao_6V2",
+            "projectName": "java-dev_fd27ddf4"
+        },
+        {
+            "type": "java",
+            "name": "testeTernario",
+            "request": "launch",
+            "mainClass": "testeTernario",
+            "projectName": "java-dev_fd27ddf4"
+        },
+        {
+            "type": "java",
+            "name": "Aula2_Ex_1_ao_6",
+            "request": "launch",
+            "mainClass": "Aula2_Ex_1_ao_6",
+            "projectName": "java-dev_fd27ddf4"
+        },
+        {
+            "type": "java",
+            "name": "teste",
+            "request": "launch",
+            "mainClass": "teste",
+            "projectName": "java-dev_fd27ddf4"
+        },
         {
             "type": "java",
             "name": "ExercicioBanco",
@@ -247,6 +290,13 @@
             "request": "launch",
             "mainClass": "estudoRepetição",
             "projectName": "java-dev_85b72f12"
+        },
+        {
+            "type": "java",
+            "name": "Aula2_Ex_7_ao_12",
+            "request": "launch",
+            "mainClass": "Aula2_Ex_7_ao_12",
+            "projectName": "java-dev_fd27ddf4"
         }
     ]
 }

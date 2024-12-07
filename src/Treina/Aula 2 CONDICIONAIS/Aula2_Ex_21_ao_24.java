@@ -49,7 +49,7 @@ public class Aula2_Ex_21_ao_24 {
             if (div5 > 1) {
                 nota5 = div5 + " Notas de 5 Reais";
             } else {
-                nota5 = nota5 = div5 + " Nota de 5 Reais";
+                nota5 = nota5 + div5 + " Nota de 5 Reais";
             }
         }
         if (saqueTemp >= 1) {
@@ -58,7 +58,7 @@ public class Aula2_Ex_21_ao_24 {
             if (div1 > 1) {
                 nota1 = div1 + " Notas de 1 Real";
             } else {
-                nota1 = nota1 = div1 + " Nota de 1 Real";
+                nota1 = nota1 + div1 + " Nota de 1 Real";
             }
         }
 

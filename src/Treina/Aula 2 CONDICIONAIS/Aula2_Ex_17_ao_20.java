@@ -1,6 +1,5 @@
 import java.math.BigDecimal;
 import java.math.RoundingMode;
-import java.util.ArrayList;
 import java.util.Scanner;
 
 public class Aula2_Ex_17_ao_20 {

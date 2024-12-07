@@ -1,8 +1,10 @@
 {
     "java.project.sourcePaths": [
-        "src/Aula 3 LOOPS",
-        "src/Aula 2 CONDICIONAIS",
-        "src/0"
+        "src/Treina/Aula 3 LOOPS",
+        "src/Treina/Aula 2 CONDICIONAIS",
+        "src/Treina/Aula 1 IMPERATIVOS",
+        "src/Curso - Java/Parte 1",
+        "src/Curso - Java/Parte 2"
     ],
     "java.project.outputPath": "bin",
     "java.project.referencedLibraries": [

@@ -14,7 +14,7 @@ public class Aula2_Ex_1_ao_6 {
 
         if (valor1 > valor2) {
             System.out.println(valor1);
-        } else if (valor2 > valor1) {
+        } else {
             System.out.println(valor2);
 
         }
@@ -23,31 +23,26 @@ public class Aula2_Ex_1_ao_6 {
         System.out.println("Insira um valor:");
         double maisOuMenos = entrada.nextDouble();
 
-        if (maisOuMenos > 0) {
+        if (maisOuMenos >= 0) {
             System.out.println("Valor positivo.");
-        } else if (maisOuMenos < 0) {
+        } else {
             System.out.println("Valor negativo.");
         }
 
         // 3
         System.out.println("Insira seu genero, Masculino(M) ou Feminino(F):");
-        String genero = entrada.next();
+        char sigla = entrada.next().toUpperCase().charAt(0);
 
-        char sigla = genero.toUpperCase().charAt(0);
+        String GeneroValidation = 
+        sigla == 'M' ? "Masculino" 
+        : sigla == 'F' ? "Feminino" 
+        : "Sexo inválido";
 
-        if (sigla == 'M') {
-            System.out.println("Masculino");
-        } else if (sigla == 'F') {
-            System.out.println("Feminino");
-        } else {
-            System.out.println("Sexo inválido");
-        }
+        System.out.println(GeneroValidation);
 
         // 4
         System.out.println("Insira uma letra:");
-        String letra = entrada.next();
-
-        char letraChar = letra.toUpperCase().charAt(0);
+        char letraChar = entrada.nextLine().toUpperCase().charAt(0);
 
         if (letraChar == 'A' || letraChar == 'E' || letraChar == 'I' || letraChar == 'O' || letraChar == 'U') {
             System.out.println("A letra é uma vogal.");
@@ -66,13 +61,12 @@ public class Aula2_Ex_1_ao_6 {
 
         double media = (nota1 + nota2) / 2;
 
-        if (media == 10.0) {
-            System.out.println("Aprovado com Mérito");
-        } else if (media > 7.0 && media < 10.0) {
-            System.out.println("Aprovado");
-        } else if (media < 7.0) {
-            System.out.println("Reprovado");
-        }
+        String notaValidation = media == 10 ? "Aprovado com Mérito"
+                : media > 7.0 && media < 10.0 ? "Aprovado"
+                        : media < 7.0 && media >= 0 ? "Reprovado"
+                                : "Nota inválida!";
+
+        System.out.println(notaValidation);
 
         // 6
         System.out.println("Insira o primeiro numero:");
@@ -88,10 +82,10 @@ public class Aula2_Ex_1_ao_6 {
             System.out.println(numero1);
         } else if (numero2 > numero1 && numero2 > numero3) {
             System.out.println(numero2);
-        }else if (numero3 > numero1 && numero3 > numero2) {
+        } else if (numero3 > numero1 && numero3 > numero2) {
             System.out.println(numero3);
         }
 
         entrada.close();
-    }  
+    }
 }

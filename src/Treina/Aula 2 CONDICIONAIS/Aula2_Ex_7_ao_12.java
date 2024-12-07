@@ -4,7 +4,7 @@ import java.util.Scanner;
 public class Aula2_Ex_7_ao_12 {
     public static void main(String[] args) {
         // Scanner
-        Scanner entrada = new Scanner (System.in);
+        Scanner entrada = new Scanner(System.in);
 
         // 7
         System.out.println("Insira o primeiro numero:");
@@ -25,7 +25,7 @@ public class Aula2_Ex_7_ao_12 {
             maior = valor3;
         }
 
-        if(valor2 < menor && valor2 < valor3){
+        if (valor2 < menor && valor2 < valor3) {
             menor = valor2;
         } else if (valor3 < menor && valor3 < valor2) {
             menor = valor3;
@@ -33,7 +33,7 @@ public class Aula2_Ex_7_ao_12 {
 
         System.out.println("Menor valor: " + menor + "\n" + "Maior valor: " + maior);
 
-        // 8 
+        // 8
         System.out.println("Insira o primeiro preço:");
         double preço1 = entrada.nextDouble();
 
@@ -90,18 +90,16 @@ public class Aula2_Ex_7_ao_12 {
         }
 
         System.out.println("Numeros em ordem decrescente: " + numeros);
-        
+
         // 10
         System.out.println("Insira o turno que você estuda Matutino(M), Vespertino(V) ou Noturno(N):");
         char turno = entrada.next().toUpperCase().charAt(0);
 
-        if(turno == 'M') {
+        if (turno == 'M') {
             System.out.println("Bom dia!");
-        } 
-        else if (turno == 'V') {
+        } else if (turno == 'V') {
             System.out.println("Boa tarde!");
-        } 
-        else if (turno == 'N') {
+        } else if (turno == 'N') {
             System.out.println("Boa noite!");
         } else {
             System.out.println("Valor Inválido");
@@ -115,25 +113,23 @@ public class Aula2_Ex_7_ao_12 {
         int percentual = 0;
         double aumento = 0;
 
-        if (salario < 280) {
+        if (salario <= 280) {
             percentual = 20;
-            aumento = (salario * percentual / 100);
-            novoSalario = salario + aumento;
-        } else if (salario >= 280 && salario < 700) {
+        } else if (salario <= 700) {
             percentual = 15;
-            aumento = (salario * percentual / 100);
-            novoSalario = salario + aumento;
-        } else if (salario >= 700 && salario < 1500) {
+        } else if (salario <= 1500) {
             percentual = 10;
-            aumento = (salario * percentual / 100);
-            novoSalario = salario + aumento;
         } else if (salario > 1500) {
             percentual = 5;
-            aumento = (salario * percentual / 100);
-            novoSalario = salario + aumento;
         }
 
-        System.out.println("Salario anterior: " + salario  + "\n " + "Novo salario é: " + novoSalario + "\n" + "O percentual de aumento aplicado: " + percentual + "\n" + "O valor do aumento: " + aumento);
+        aumento =(salario * percentual / 100);
+        novoSalario = salario + aumento;
+
+        System.out.println("Salario anterior: " + salario
+                + "\n" + "Novo salario é: " + novoSalario
+                + "\n" + "O percentual de aumento aplicado: " + percentual
+                + "\n" + "O valor do aumento: " + aumento);
 
         // 12
         // O Salário Líquido corresponde ao Salário Bruto menos os descontos.
@@ -153,19 +149,20 @@ public class Aula2_Ex_7_ao_12 {
             ir = 0;
         } else if (salarioT > 900 && salarioT <= 1500) {
             ir = salarioT * 5 / 100;
-        }else if (salarioT > 1500 && salarioT <= 2500) {
+        } else if (salarioT > 1500 && salarioT <= 2500) {
             ir = salarioT * 10 / 100;
-        }else if (salarioT > 2500) {
+        } else if (salarioT > 2500) {
             ir = salarioT * 20 / 100;
         }
 
         double totalDesc = ir + inss;
         double salarioLiq = salarioT - totalDesc;
-        
-        System.out.println("Salario bruto: R$ " + salarioT + "\n" + "IR: R$ " + ir + "\n" + "INSS: R$ " + inss + "\n" + "FGTS: R$ " + fgts);
+
+        System.out.println("Salario bruto: R$ " + salarioT + "\n" + "IR: R$ " + ir + "\n" + "INSS: R$ " + inss + "\n"
+                + "FGTS: R$ " + fgts);
         System.out.println("Total de descontos: R$ " + totalDesc);
         System.out.println("Salário Líquido R$ " + salarioLiq);
-        
+
         entrada.close();
     }
 }

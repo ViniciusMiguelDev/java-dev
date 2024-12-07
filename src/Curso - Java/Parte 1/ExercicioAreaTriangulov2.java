@@ -45,5 +45,7 @@ public class ExercicioAreaTriangulov2 {
         } else {
             System.out.println("O segundo triangulo é maior.");
         }
+
+        entrada.close();
     }
 }

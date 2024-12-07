@@ -1,5 +1,3 @@
-import java.math.BigDecimal;
-import java.math.RoundingMode;
 import java.util.Scanner;
 
 public class Aula2_Ex_32_ao_34 {
@@ -14,7 +12,6 @@ public class Aula2_Ex_32_ao_34 {
 
         char digito1 = entrada1_Q32.charAt(0);
         char digito2 = entrada1_Q32.charAt(1);
-        char digito3 = entrada1_Q32.charAt(2);
         char digito4 = entrada1_Q32.charAt(3);
         char digito5 = entrada1_Q32.charAt(4);
 
