@@ -4,7 +4,76 @@
     // Para obter mais informações, acesse: https://go.microsoft.com/fwlink/?linkid=830387
     "version": "0.2.0",
     "configurations": [
-    
+        {
+            "type": "java",
+            "name": "ExercicioPensionato",
+            "request": "launch",
+            "mainClass": "ExercicioPensionato",
+            "projectName": "java-dev_85b72f12"
+        },
+        {
+            "type": "java",
+            "name": "ExercicioAltura",
+            "request": "launch",
+            "mainClass": "ExercicioAltura",
+            "projectName": "java-dev_85b72f12"
+        },
+        {
+            "type": "java",
+            "name": "ExercicioMaisVelho",
+            "request": "launch",
+            "mainClass": "ExercicioMaisVelho",
+            "projectName": "java-dev_85b72f12"
+        },
+        {
+            "type": "java",
+            "name": "ExercicioSomaVetores",
+            "request": "launch",
+            "mainClass": "ExercicioSomaVetores",
+            "projectName": "java-dev_85b72f12"
+        },
+        {
+            "type": "java",
+            "name": "ExercicioMaior",
+            "request": "launch",
+            "mainClass": "ExercicioMaior",
+            "projectName": "java-dev_85b72f12"
+        },
+        {
+            "type": "java",
+            "name": "ExercicioPares",
+            "request": "launch",
+            "mainClass": "ExercicioPares",
+            "projectName": "java-dev_85b72f12"
+        },
+        {
+            "type": "java",
+            "name": "ExercicioPessoas",
+            "request": "launch",
+            "mainClass": "ExercicioPessoas",
+            "projectName": "java-dev_85b72f12"
+        },
+        {
+            "type": "java",
+            "name": "ExercicioMedia",
+            "request": "launch",
+            "mainClass": "ExercicioMedia",
+            "projectName": "java-dev_85b72f12"
+        },
+        {
+            "type": "java",
+            "name": "Array2",
+            "request": "launch",
+            "mainClass": "Array2",
+            "projectName": "java-dev_85b72f12"
+        },
+        {
+            "type": "java",
+            "name": "Array1",
+            "request": "launch",
+            "mainClass": "Array1",
+            "projectName": "java-dev_85b72f12"
+        },
         {
             "type": "java",
             "name": "Aula2_Ex_13_ao_16",
