@@ -6,6 +6,48 @@
     "configurations": [
         {
             "type": "java",
+            "name": "localDate",
+            "request": "launch",
+            "mainClass": "localDate",
+            "projectName": "java-dev_85b72f12"
+        },
+        {
+            "type": "java",
+            "name": "ExercicioMatriz2",
+            "request": "launch",
+            "mainClass": "ExercicioMatriz2",
+            "projectName": "java-dev_85b72f12"
+        },
+        {
+            "type": "java",
+            "name": "ExercicioMatriz1",
+            "request": "launch",
+            "mainClass": "ExercicioMatriz1",
+            "projectName": "java-dev_85b72f12"
+        },
+        {
+            "type": "java",
+            "name": "ExercicioFuncionarios",
+            "request": "launch",
+            "mainClass": "ExercicioFuncionarios",
+            "projectName": "java-dev_85b72f12"
+        },
+        {
+            "type": "java",
+            "name": "lista",
+            "request": "launch",
+            "mainClass": "lista",
+            "projectName": "java-dev_85b72f12"
+        },
+        {
+            "type": "java",
+            "name": "forEach",
+            "request": "launch",
+            "mainClass": "forEach",
+            "projectName": "java-dev_85b72f12"
+        },
+        {
+            "type": "java",
             "name": "ExercicioPensionato",
             "request": "launch",
             "mainClass": "ExercicioPensionato",
