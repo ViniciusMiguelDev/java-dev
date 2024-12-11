@@ -6,6 +6,48 @@
     "configurations": [
         {
             "type": "java",
+            "name": "ExercicioPost",
+            "request": "launch",
+            "mainClass": "ExercicioPost",
+            "projectName": "java-dev_85b72f12"
+        },
+        {
+            "type": "java",
+            "name": "ExercicioWorker",
+            "request": "launch",
+            "mainClass": "ExercicioWorker",
+            "projectName": "java-dev_85b72f12"
+        },
+        {
+            "type": "java",
+            "name": "OrderProgram",
+            "request": "launch",
+            "mainClass": "OrderProgram",
+            "projectName": "java-dev_85b72f12"
+        },
+        {
+            "type": "java",
+            "name": "localDate4",
+            "request": "launch",
+            "mainClass": "localDate4",
+            "projectName": "java-dev_85b72f12"
+        },
+        {
+            "type": "java",
+            "name": "localDate3",
+            "request": "launch",
+            "mainClass": "localDate3",
+            "projectName": "java-dev_85b72f12"
+        },
+        {
+            "type": "java",
+            "name": "localDate2",
+            "request": "launch",
+            "mainClass": "localDate2",
+            "projectName": "java-dev_85b72f12"
+        },
+        {
+            "type": "java",
             "name": "localDate",
             "request": "launch",
             "mainClass": "localDate",
