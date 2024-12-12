@@ -6,6 +6,55 @@
     "configurations": [
         {
             "type": "java",
+            "name": "ExercicioCltOrPj",
+            "request": "launch",
+            "mainClass": "ExercicioCltOrPj",
+            "projectName": "java-dev_85b72f12"
+        },
+        {
+            "type": "java",
+            "name": "ExercicioAbstract",
+            "request": "launch",
+            "mainClass": "ExercicioAbstract",
+            "projectName": "java-dev_85b72f12"
+        },
+        {
+            "type": "java",
+            "name": "ExercicioProducts",
+            "request": "launch",
+            "mainClass": "ExercicioProducts",
+            "projectName": "java-dev_85b72f12"
+        },
+        {
+            "type": "java",
+            "name": "ExercicioEmpresa",
+            "request": "launch",
+            "mainClass": "ExercicioEmpresa",
+            "projectName": "java-dev_85b72f12"
+        },
+        {
+            "type": "java",
+            "name": "ExercicioHerança3",
+            "request": "launch",
+            "mainClass": "ExercicioHerança3",
+            "projectName": "java-dev_85b72f12"
+        },
+        {
+            "type": "java",
+            "name": "ExercicioHerança2",
+            "request": "launch",
+            "mainClass": "ExercicioHerança2",
+            "projectName": "java-dev_85b72f12"
+        },
+        {
+            "type": "java",
+            "name": "ExercicioHerança",
+            "request": "launch",
+            "mainClass": "ExercicioHerança",
+            "projectName": "java-dev_85b72f12"
+        },
+        {
+            "type": "java",
             "name": "ExercicioPost",
             "request": "launch",
             "mainClass": "ExercicioPost",
