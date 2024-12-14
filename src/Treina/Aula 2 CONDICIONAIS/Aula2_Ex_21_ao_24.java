@@ -135,19 +135,19 @@ public class Aula2_Ex_21_ao_24 {
         int contagem = 0;
 
         if (resp1.equals("SIM")) {
-            contagem = contagem +1;
+            contagem++;
         }
         if (resp2.equals("SIM")) {
-            contagem = contagem +1;
+            contagem++;
         }
         if (resp3.equals("SIM")) {
-            contagem = contagem +1;
+            contagem++;
         }
         if (resp4.equals("SIM")) {
-            contagem = contagem +1;
+            contagem++;
         }
         if (resp5.equals("SIM")) {
-            contagem = contagem +1;
+            contagem++;
         }
 
         if (contagem == 5) {

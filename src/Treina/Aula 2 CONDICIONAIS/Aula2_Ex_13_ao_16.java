@@ -1,3 +1,5 @@
+import java.math.BigDecimal;
+import java.math.RoundingMode;
 import java.util.Scanner;
 
 public class Aula2_Ex_13_ao_16 {
@@ -80,7 +82,7 @@ public class Aula2_Ex_13_ao_16 {
             System.out.println("Triângulo Equilátero");
         } else if (esc) {
             System.out.println("Triângulo Escaleno");
-        } else{
+        } else {
             System.out.println("Triângulo Isósceles");
         }
 
@@ -94,26 +96,23 @@ public class Aula2_Ex_13_ao_16 {
         int B = Integer.parseInt(arrayVari[1]);
         int C = Integer.parseInt(arrayVari[2]);
 
-        if (A == 0) {
+        if (A != 0) {
+            double delta = Math.pow(B, 2) - (4 * A * C);
+            if (delta > 0) {
+                double x1 = (-1 * B + Math.sqrt(delta)) / (2 * A);
+                double x2 = (-1 * B - Math.sqrt(delta)) / (2 * A);
+                System.out.println("X1 = " + x1 + "\n" + "X2 = " + x2);
+            } else if (delta == 0) {
+                double x = (-1 * B + Math.sqrt(delta)) / (2 * A);
+                System.out.println(x);
+            } else {
+                System.out.println("Delta negativo (não possui raízes reais)");
+            }
+
+        } else {
             System.out.println("A = 0 (Valor inválido)");
         }
-
-        double delta = Math.pow(B, 2) - (4 * A * C);
-
-        if (delta < 0) {
-            System.out.println("Delta negativo (não possui raízes reais)");
-        }
-
-        if (delta == 0) {
-            double x = (-B + delta) / (2 * A);
-            System.out.println(x);
-        }
-
-        double x1 = (-B + delta) / (2 * A);
-        double x2 = (-B - delta) / (2 * A);
-
-        System.out.println("X1 = " + x1 + "\n" + "X2 = " + x2);
-
+        
         entrada.close();
     }
 }

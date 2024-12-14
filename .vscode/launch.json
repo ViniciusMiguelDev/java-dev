@@ -6,6 +6,55 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Aula2_Ex_17_ao_20",
+            "request": "launch",
+            "mainClass": "Aula2_Ex_17_ao_20",
+            "projectName": "java-dev_fd27ddf4"
+        },
+        {
+            "type": "java",
+            "name": "OrderProgram",
+            "request": "launch",
+            "mainClass": "OrderProgram",
+            "projectName": "java-dev_fd27ddf4"
+        },
+        {
+            "type": "java",
+            "name": "ExercicioWorker",
+            "request": "launch",
+            "mainClass": "ExercicioWorker",
+            "projectName": "java-dev_fd27ddf4"
+        },
+        {
+            "type": "java",
+            "name": "ExercicioPost",
+            "request": "launch",
+            "mainClass": "ExercicioPost",
+            "projectName": "java-dev_fd27ddf4"
+        },
+        {
+            "type": "java",
+            "name": "localDate",
+            "request": "launch",
+            "mainClass": "localDate",
+            "projectName": "java-dev_fd27ddf4"
+        },
+        {
+            "type": "java",
+            "name": "ExercicioProducts",
+            "request": "launch",
+            "mainClass": "ExercicioProducts",
+            "projectName": "java-dev_fd27ddf4"
+        },
+        {
+            "type": "java",
+            "name": "Estacionamento",
+            "request": "launch",
+            "mainClass": "Estacionamento",
+            "projectName": "java-dev_fd27ddf4"
+        },
+        {
+            "type": "java",
             "name": "ExercicioCltOrPj",
             "request": "launch",
             "mainClass": "ExercicioCltOrPj",

@@ -69,7 +69,7 @@ public class Aula2_Ex_7_ao_12 {
             numeros.add(numero1);
         } else if (numero2 > numero1 && numero2 > numero3) {
             numeros.add(numero2);
-        } else if (numero3 > numero1 && numero3 > numero2) {
+        } else {
             numeros.add(numero3);
         }
 
@@ -77,7 +77,7 @@ public class Aula2_Ex_7_ao_12 {
             numeros.add(numero1);
         } else if (numero2 > numero1 || numero2 > numero3) {
             numeros.add(numero2);
-        } else if (numero3 > numero1 || numero3 > numero2) {
+        } else {
             numeros.add(numero3);
         }
 
@@ -85,7 +85,7 @@ public class Aula2_Ex_7_ao_12 {
             numeros.add(numero1);
         } else if (numero2 < numero1 && numero2 < numero3) {
             numeros.add(numero2);
-        } else if (numero3 < numero1 && numero3 < numero2) {
+        } else {
             numeros.add(numero3);
         }
 
@@ -123,7 +123,7 @@ public class Aula2_Ex_7_ao_12 {
             percentual = 5;
         }
 
-        aumento =(salario * percentual / 100);
+        aumento = (salario * percentual / 100);
         novoSalario = salario + aumento;
 
         System.out.println("Salario anterior: " + salario

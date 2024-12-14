@@ -1,5 +1,6 @@
 package entities_3;
 
+import java.text.SimpleDateFormat;
 import java.util.Date;
 
 public class Order {
@@ -42,9 +43,8 @@ public class Order {
 
     @Override
     public String toString() {
-        return "Order [id=" + id + ", moment=" + moment + ", status=" + status + "]";
+        SimpleDateFormat sdf = new SimpleDateFormat("dd/MM/yy");
+        return "Order [id=" + id + ", moment=" + sdf.format(moment) + ", status=" + status + "]";
     }
-    
 
-    
 }

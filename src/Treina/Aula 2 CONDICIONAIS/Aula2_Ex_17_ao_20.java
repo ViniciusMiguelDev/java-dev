@@ -51,9 +51,6 @@ public class Aula2_Ex_17_ao_20 {
         }
 
         // 19 (versão 1)
-        // valor / 100 = primeiro digito
-        // (valor / 10) % 10 = segundo digito
-        // valor % 10 = terceiro digito
         System.out.println("Insira um número inteiro menor que 1000: ");
         String inteiro = entrada.next();
         int inteiroInt = Integer.parseInt(inteiro);
@@ -157,32 +154,27 @@ public class Aula2_Ex_17_ao_20 {
         String fraseDez = "";
         String fraseUnid = "";
 
-        if (inteirov2 <= 0) {
+        if (inteirov2 >= 0) {
+            if (cent == 1) {
+                fraseCent = "1 Centena";
+            } else if (cent > 1 && cent <= 9) {
+                fraseCent = cent + " Centenas";
+            }
+
+            if (dez == 1) {
+                fraseDez = "1 Dezena";
+            } else if (dez > 1 && dez <= 9) {
+                fraseDez = dez + " Dezenas";
+            }
+
+            if (unid == 1) {
+                fraseUnid = "1 Unidade";
+            } else if (unid > 1 && unid <= 9) {
+                fraseUnid = unid + " Unidades";
+            }
+        } else {
+
             System.out.println("Numero Inválido!");
-        }
-
-        if (cent == 1) {
-            fraseCent = "1 Centena";
-        } else if (cent > 1 && cent <= 9) {
-            fraseCent = cent + " Centenas";
-        } else if (cent == 0) {
-            fraseCent = "";
-        }
-
-        if (dez == 1) {
-            fraseDez = "1 Dezena";
-        } else if (dez > 1 && dez <= 9) {
-            fraseDez = dez + " Dezenas";
-        } else if (dez == 0) {
-            fraseDez = "";
-        }
-
-        if (unid == 1) {
-            fraseUnid = "1 Unidade";
-        } else if (unid > 1 && unid <= 9) {
-            fraseUnid = unid + " Unidades";
-        } else if (unid == 0) {
-            fraseUnid = "";
         }
 
         System.out.println("Numero escolhido: " + inteirov2 + "\n" + fraseCent + "\n" + fraseDez + "\n" + fraseUnid);
