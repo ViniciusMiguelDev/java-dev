@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Estacionamento",
+            "request": "launch",
+            "mainClass": "Estacionamento",
+            "projectName": "java-dev_85b72f12"
+        },
+        {
+            "type": "java",
             "name": "Aula2_Ex_17_ao_20",
             "request": "launch",
             "mainClass": "Aula2_Ex_17_ao_20",

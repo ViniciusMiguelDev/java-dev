@@ -8,6 +8,7 @@ public class Estacionamento {
 
         // Entradas
         ArrayList<Carro> list = new ArrayList<>();
+        Carro carro = new Carro();
         int n = 0;
         String cor = " ";
         do {
@@ -21,7 +22,7 @@ public class Estacionamento {
                 System.out.println("Sabendo-se que as cores permitidas são (Preto, Branco e Cinza):");
                 System.out.print("Insira a cor do #" + i + " carro: ");
                 cor = sc.next().toUpperCase();
-            } while (cor != "PRETO" || cor != "BRANCO" || cor != "CINZA");
+            } while (!cor.equals("PRETO") && !cor.equals("BRANCO") && !cor.equals("CINZA"));
 
             System.out.println();
             System.out.print("Insira a placa do #" + i + " carro: ");
@@ -35,8 +36,8 @@ public class Estacionamento {
             list.add(new Carro(cor, placa, vMaxima));
         }
 
-        for (Carro carro : list) {
-            System.out.println(carro);
+        for (Carro carro1 : list) {
+            System.out.println(carro1);
             System.out.println();
         }
 
