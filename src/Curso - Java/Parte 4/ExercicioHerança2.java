@@ -4,11 +4,11 @@ public class ExercicioHerança2 {
         acc1.withDraw(200);
         System.out.println(acc1.getBalance());
 
-        Account acc2 = new SavingsAccount(1002, "Maria", 1000.0, 0.01);
+        SavingsAccount acc2 = new SavingsAccount(1002, "Maria", 1000.0, 0.01);
         acc2.withDraw(200);
         System.out.println(acc2.getBalance());
 
-        Account acc3 = new BusinessAccount(1003, "Bob", 1000.0, 500.0);
+        BusinessAccount acc3 = new BusinessAccount(1003, "Bob", 1000.0, 500.0);
         acc3.withDraw(200);
         System.out.println(acc3.getBalance());
     }

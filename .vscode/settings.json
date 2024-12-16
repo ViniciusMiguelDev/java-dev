@@ -8,7 +8,10 @@
         "src/Curso - Java/Parte 3/",
         "src/Curso - Java/Parte 4/",
         "src/Curso - Java/Parte 4/models/entities_4/",
-        "src/Curso - Java/Parte 4/models/enums/"
+        "src/Curso - Java/Parte 4/models/enums/",
+        "src/Curso - Java/Parte 5/",
+        "src/Curso - Java/Parte 5/models/entities_5/",
+        "src/Curso - Java/Parte 5/models/enums/"
     ],
     "java.project.outputPath": "bin",
     "java.project.referencedLibraries": [

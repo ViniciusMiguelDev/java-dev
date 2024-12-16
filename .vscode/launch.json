@@ -6,6 +6,55 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Banco",
+            "request": "launch",
+            "mainClass": "Banco",
+            "projectName": "java-dev_85b72f12"
+        },
+        {
+            "type": "java",
+            "name": "hotelProgram3",
+            "request": "launch",
+            "mainClass": "hotelProgram3",
+            "projectName": "java-dev_85b72f12"
+        },
+        {
+            "type": "java",
+            "name": "hotelProgram2",
+            "request": "launch",
+            "mainClass": "hotelProgram2",
+            "projectName": "java-dev_85b72f12"
+        },
+        {
+            "type": "java",
+            "name": "hotelProgram1",
+            "request": "launch",
+            "mainClass": "hotelProgram1",
+            "projectName": "java-dev_85b72f12"
+        },
+        {
+            "type": "java",
+            "name": "blocoFinally",
+            "request": "launch",
+            "mainClass": "blocoFinally",
+            "projectName": "java-dev_85b72f12"
+        },
+        {
+            "type": "java",
+            "name": "trycatch2",
+            "request": "launch",
+            "mainClass": "trycatch2",
+            "projectName": "java-dev_85b72f12"
+        },
+        {
+            "type": "java",
+            "name": "trycatch1",
+            "request": "launch",
+            "mainClass": "trycatch1",
+            "projectName": "java-dev_85b72f12"
+        },
+        {
+            "type": "java",
             "name": "Estacionamento",
             "request": "launch",
             "mainClass": "Estacionamento",

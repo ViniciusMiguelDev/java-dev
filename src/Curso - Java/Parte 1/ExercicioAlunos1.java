@@ -2,7 +2,7 @@ import java.util.Scanner;
 
 import entities.Aluno;
 
-public class ExercicioAlunos {
+public class ExercicioAlunos1 {
     public static void main(String[] args) {
         // Scanner
         Scanner entrada = new Scanner(System.in);
