@@ -6,6 +6,111 @@
     "configurations": [
         {
             "type": "java",
+            "name": "ProductProgram",
+            "request": "launch",
+            "mainClass": "ProductProgram",
+            "projectName": "java-dev_85b72f12"
+        },
+        {
+            "type": "java",
+            "name": "PrintNumber",
+            "request": "launch",
+            "mainClass": "PrintNumber",
+            "projectName": "java-dev_85b72f12"
+        },
+        {
+            "type": "java",
+            "name": "Program",
+            "request": "launch",
+            "mainClass": "Program",
+            "projectName": "java-dev_85b72f12"
+        },
+        {
+            "type": "java",
+            "name": "InterfaceComparable",
+            "request": "launch",
+            "mainClass": "InterfaceComparable",
+            "projectName": "java-dev_85b72f12"
+        },
+        {
+            "type": "java",
+            "name": "herancaMultipla",
+            "request": "launch",
+            "mainClass": "herancaMultipla",
+            "projectName": "java-dev_85b72f12"
+        },
+        {
+            "type": "java",
+            "name": "programArea",
+            "request": "launch",
+            "mainClass": "programArea",
+            "projectName": "java-dev_85b72f12"
+        },
+        {
+            "type": "java",
+            "name": "PaymentService",
+            "request": "launch",
+            "mainClass": "PaymentService",
+            "projectName": "java-dev_85b72f12"
+        },
+        {
+            "type": "java",
+            "name": "Locadora",
+            "request": "launch",
+            "mainClass": "Locadora",
+            "projectName": "java-dev_85b72f12"
+        },
+        {
+            "type": "java",
+            "name": "ExercicioArquivos",
+            "request": "launch",
+            "mainClass": "ExercicioArquivos",
+            "projectName": "java-dev_85b72f12"
+        },
+        {
+            "type": "java",
+            "name": "infosDoArquivo",
+            "request": "launch",
+            "mainClass": "infosDoArquivo",
+            "projectName": "java-dev_85b72f12"
+        },
+        {
+            "type": "java",
+            "name": "Pastas",
+            "request": "launch",
+            "mainClass": "Pastas",
+            "projectName": "java-dev_85b72f12"
+        },
+        {
+            "type": "java",
+            "name": "fileWriterBufferedWriter",
+            "request": "launch",
+            "mainClass": "fileWriterBufferedWriter",
+            "projectName": "java-dev_85b72f12"
+        },
+        {
+            "type": "java",
+            "name": "fileReaderBufferedReader2",
+            "request": "launch",
+            "mainClass": "fileReaderBufferedReader2",
+            "projectName": "java-dev_85b72f12"
+        },
+        {
+            "type": "java",
+            "name": "fileReaderBufferedReader",
+            "request": "launch",
+            "mainClass": "fileReaderBufferedReader",
+            "projectName": "java-dev_85b72f12"
+        },
+        {
+            "type": "java",
+            "name": "FileScanner",
+            "request": "launch",
+            "mainClass": "FileScanner",
+            "projectName": "java-dev_85b72f12"
+        },
+        {
+            "type": "java",
             "name": "Banco",
             "request": "launch",
             "mainClass": "Banco",

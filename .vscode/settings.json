@@ -11,7 +11,21 @@
         "src/Curso - Java/Parte 4/models/enums/",
         "src/Curso - Java/Parte 5/",
         "src/Curso - Java/Parte 5/models/entities_5/",
-        "src/Curso - Java/Parte 5/models/enums/"
+        "src/Curso - Java/Parte 5/models/enums/",
+        "src/Curso - Java/Parte 5/models/services/",
+        "src/Curso - Java/Parte 6/",
+        "src/Curso - Java/Parte 6/models/entities_6/",
+        "src/Curso - Java/Parte 6/models/enums/",
+        "src/Curso - Java/Parte 6/models/services/",
+        "src/Curso - Java/ProjetoContratos/",
+        "src/Curso - Java/ProjetoContratos/models/entities/",
+        "src/Curso - Java/ProjetoContratos/models/enums/",
+        "src/Curso - Java/ProjetoContratos/models/services/",
+        "src/Curso - Java/Parte 7/",
+        "src/Curso - Java/Parte 7/models/entities_7/",
+        "src/Curso - Java/Parte 7/models/enums/",
+        "src/Curso - Java/Parte 7/models/services/"
+        
     ],
     "java.project.outputPath": "bin",
     "java.project.referencedLibraries": [
