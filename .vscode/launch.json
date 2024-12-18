@@ -6,6 +6,139 @@
     "configurations": [
         {
             "type": "java",
+            "name": "ExercicioLambda2",
+            "request": "launch",
+            "mainClass": "ExercicioLambda2",
+            "projectName": "java-dev_85b72f12"
+        },
+        {
+            "type": "java",
+            "name": "ExercicioLambda",
+            "request": "launch",
+            "mainClass": "ExercicioLambda",
+            "projectName": "java-dev_85b72f12"
+        },
+        {
+            "type": "java",
+            "name": "PipelinesTestes",
+            "request": "launch",
+            "mainClass": "PipelinesTestes",
+            "projectName": "java-dev_85b72f12"
+        },
+        {
+            "type": "java",
+            "name": "StreamTestes",
+            "request": "launch",
+            "mainClass": "StreamTestes",
+            "projectName": "java-dev_85b72f12"
+        },
+        {
+            "type": "java",
+            "name": "ExercicioProductLambda",
+            "request": "launch",
+            "mainClass": "ExercicioProductLambda",
+            "projectName": "java-dev_85b72f12"
+        },
+        {
+            "type": "java",
+            "name": "Function",
+            "request": "launch",
+            "mainClass": "Function",
+            "projectName": "java-dev_85b72f12"
+        },
+        {
+            "type": "java",
+            "name": "ProductConsumer",
+            "request": "launch",
+            "mainClass": "ProductConsumer",
+            "projectName": "java-dev_85b72f12"
+        },
+        {
+            "type": "java",
+            "name": "Predicate",
+            "request": "launch",
+            "mainClass": "Predicate",
+            "projectName": "java-dev_85b72f12"
+        },
+        {
+            "type": "java",
+            "name": "exercicioMap3",
+            "request": "launch",
+            "mainClass": "exercicioMap3",
+            "projectName": "java-dev_85b72f12"
+        },
+        {
+            "type": "java",
+            "name": "exercicioMap2",
+            "request": "launch",
+            "mainClass": "exercicioMap2",
+            "projectName": "java-dev_85b72f12"
+        },
+        {
+            "type": "java",
+            "name": "exercicioMap",
+            "request": "launch",
+            "mainClass": "exercicioMap",
+            "projectName": "java-dev_85b72f12"
+        },
+        {
+            "type": "java",
+            "name": "ExercicioSet2",
+            "request": "launch",
+            "mainClass": "ExercicioSet2",
+            "projectName": "java-dev_85b72f12"
+        },
+        {
+            "type": "java",
+            "name": "ExercicioSet1",
+            "request": "launch",
+            "mainClass": "ExercicioSet1",
+            "projectName": "java-dev_85b72f12"
+        },
+        {
+            "type": "java",
+            "name": "hashSet4",
+            "request": "launch",
+            "mainClass": "hashSet4",
+            "projectName": "java-dev_85b72f12"
+        },
+        {
+            "type": "java",
+            "name": "hashSet3",
+            "request": "launch",
+            "mainClass": "hashSet3",
+            "projectName": "java-dev_85b72f12"
+        },
+        {
+            "type": "java",
+            "name": "hashSet2",
+            "request": "launch",
+            "mainClass": "hashSet2",
+            "projectName": "java-dev_85b72f12"
+        },
+        {
+            "type": "java",
+            "name": "hashSet",
+            "request": "launch",
+            "mainClass": "hashSet",
+            "projectName": "java-dev_85b72f12"
+        },
+        {
+            "type": "java",
+            "name": "Set",
+            "request": "launch",
+            "mainClass": "Set",
+            "projectName": "java-dev_85b72f12"
+        },
+        {
+            "type": "java",
+            "name": "HashCodeEquals",
+            "request": "launch",
+            "mainClass": "HashCodeEquals",
+            "projectName": "java-dev_85b72f12"
+        },
+        {
+            "type": "java",
             "name": "ProductProgram",
             "request": "launch",
             "mainClass": "ProductProgram",

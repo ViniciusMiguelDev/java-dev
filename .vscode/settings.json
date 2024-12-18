@@ -22,9 +22,13 @@
         "src/Curso - Java/ProjetoContratos/models/enums/",
         "src/Curso - Java/ProjetoContratos/models/services/",
         "src/Curso - Java/Parte 7/",
-        "src/Curso - Java/Parte 7/models/entities_7/",
+        "src/Curso - Java/Parte 7/models/entities00/",
         "src/Curso - Java/Parte 7/models/enums/",
-        "src/Curso - Java/Parte 7/models/services/"
+        "src/Curso - Java/Parte 7/models/services/",
+        "src/Curso - Java/Parte 8/",
+        "src/Curso - Java/Parte 8/models/entities_01/",
+        "src/Curso - Java/Parte 8/models/enums/",
+        "src/Curso - Java/Parte 8/models/services/"
         
     ],
     "java.project.outputPath": "bin",

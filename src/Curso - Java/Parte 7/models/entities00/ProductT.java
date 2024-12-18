@@ -1,4 +1,3 @@
-package models.entities;
 
 public class ProductT implements Comparable<ProductT>{
     private String name;
